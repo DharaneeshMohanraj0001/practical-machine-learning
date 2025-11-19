@@ -1,0 +1,20 @@
+site_name: My Documentation
+site_description: Example MkDocs Project
+site_author: Your Name
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage:
+      - Getting Started: usage.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
